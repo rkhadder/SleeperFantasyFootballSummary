@@ -2,6 +2,12 @@ export interface SleeperApi_Roster {
   roster_id: string;
   league_id: string;
   owner_id: string;
+  settings: {
+    waiver_position: number;
+    wins: number;
+    ties: number;
+    losses: number;
+  };
 }
 
 export interface SleeperApi_User {
